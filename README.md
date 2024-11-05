@@ -1,7 +1,9 @@
-# Hyperledger Fabric
+# Hyperledger Fabric and SmartFalcon Internship Assignment
 
 ## Overview
 Hyperledger Fabric is a Graduated project under the Hyperledger umbrella, designed for distributed ledger solutions. Its modular architecture provides high levels of confidentiality, resiliency, flexibility, and scalability. Hyperledger Fabric allows for pluggable implementations of various components, accommodating the complexities of different economic ecosystems. This platform offers a uniquely elastic and extensible architecture, setting it apart from other blockchain solutions. Building on a fully-vetted, open-source framework, Hyperledger Fabric is an ideal starting point for enterprise blockchain initiatives.
+
+This project is developed as part of the SmartFalcon internship program. The objective is to create a blockchain-based system using Hyperledger Fabric to manage and track financial assets. The system supports asset creation, updating asset values, querying the world state, and retrieving transaction history, ensuring security, transparency, and immutability of asset records.
 
 ## Releases
 Hyperledger Fabric provides periodic releases with new features and improvements. Certain releases are designated as Long-Term Support (LTS), ensuring that important fixes are backported during overlap periods.
@@ -37,11 +39,6 @@ Hyperledger Fabric source code is available under the Apache License, Version 2.
 
 ---
 
-# SmartFalcon Internship - Hyperledger Fabric Assignment
-
-## Overview
-This project is developed as part of the SmartFalcon internship program. The objective is to create a blockchain-based system using Hyperledger Fabric to manage and track financial assets. The system supports asset creation, updating asset values, querying the world state, and retrieving transaction history, ensuring security, transparency, and immutability of asset records.
-
 ## Table of Contents
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
@@ -50,7 +47,6 @@ This project is developed as part of the SmartFalcon internship program. The obj
 - [Smart Contract](#smart-contract)
 - [REST API](#rest-api)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Project Structure
@@ -66,6 +62,7 @@ SmartFalconInternship/
 └── smart-contract/ # Smart contract folder 
 ├── assetContract.go # Smart contract code for asset management 
 └── README.md # Documentation for smart contract
+
 
 ## Technologies Used
 - **Hyperledger Fabric**: A permissioned blockchain framework.
@@ -153,3 +150,4 @@ Contributions are welcome! Please fork the repository and create a pull request.
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
+
